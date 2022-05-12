@@ -2,7 +2,7 @@
 // @name           Reddit Videos - [Space Bar] to Play/Pause
 // @namespace      https://github.com/FlowerForWar/Reddit-Videos-Space-Bar-to-Play-Pause
 // @description    Play/Pause a focused video by pressing the [Space Bar]
-// @version        0.01
+// @version        0.02
 // @author         FlowrForWar
 // @match          https://www.reddit.com/r/*
 // @grant          none
@@ -11,7 +11,11 @@
 // ==/UserScript==
 
 let fullscreenElement;
-document.documentElement.addEventListener('fullscreenchange', () => (fullscreenElement = document.fullscreenElement));
+document.documentElement.addEventListener('fullscreenchange', () => {
+	const fullscreen_had_video = !!fullscreenElement && !!fullscreenElement.querySelector(':scope > video');
+	if (fullscreen_had_video) fullscreenElement.closest('[id^="t3_"]').focus();
+	fullscreenElement = document.fullscreenElement;
+});
 window.addEventListener('keydown', keydown);
 
 function keydown(event) {
