@@ -1,4 +1,5 @@
 ## Reddit Videos - [Space Bar] to Play/Pause
+[Github](https://github.com/FlowerForWar/Reddit-Videos-Space-Bar-to-Play-Pause), [Greasy Fork](https://greasyfork.org/en/scripts/444775-reddit-videos-space-bar-to-play-pause)
 
 Keyboard Key(s) | Trigger
 ---|---
