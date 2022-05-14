@@ -4,7 +4,7 @@
 // @description    Play/Pause a focused video by pressing the [Space Bar]
 // @version        0.05
 // @author         FlowrForWar
-// @match          https://www.reddit.com/*
+// @match          https://www.reddit.com/r/*
 // @grant          none
 // @supportURL     https://github.com/FlowerForWar/Reddit-Videos-Space-Bar-to-Play-Pause/issues
 // @license        MIT
@@ -60,14 +60,15 @@ async function keydown(event) {
 }
 
 function pause() {
-	console.log('pause');
+	// console.log('pause');
 	if (pausedByScript) return;
+	console.warn('Lost focus');
 	document.activeElement.blur();
-	this.removeEventListener('pause', pause);
+	// this.removeEventListener('pause', pause);
 }
 
 function play() {
-	console.log('play');
+	// console.log('play');
 	pausedByScript = !1;
-	this.removeEventListener('play', play);
+	// this.removeEventListener('play', play);
 }
