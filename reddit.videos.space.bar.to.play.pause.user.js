@@ -19,7 +19,6 @@ document.documentElement.addEventListener('fullscreenchange', () => {
 window.addEventListener('keydown', keydown);
 
 async function keydown(event) {
-	console.log(event);
 	const { code: key, shiftKey } = event;
 	if (key !== 'Space' && key !== 'ArrowLeft' && key !== 'ArrowRight') return;
 	if (!(document.activeElement && document.activeElement.id.startsWith('t3_')) && !fullscreenElement) return;
