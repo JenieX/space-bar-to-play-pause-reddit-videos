@@ -4,7 +4,7 @@
 // @description    Play/Pause a focused video by pressing the [Space Bar]
 // @version        0.04
 // @author         FlowrForWar
-// @match          https://www.reddit.com/r/*
+// @match          https://www.reddit.com/*
 // @grant          none
 // @supportURL     https://github.com/FlowerForWar/Reddit-Videos-Space-Bar-to-Play-Pause/issues
 // @license        MIT
