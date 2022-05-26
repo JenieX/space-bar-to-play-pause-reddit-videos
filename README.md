@@ -1,4 +1,4 @@
-## Space Bar to play/pause Reddit Videos
+## Space Bar to play/pause Reddit videos
 A User script to Play/Pause a focused video by pressing the [Space Bar]. Automatically focus an auto-playing video.
 
 [Github](https://github.com/FlowerForWar/space-bar-to-play-pause-reddit-videos), [Greasy Fork](https://greasyfork.org/en/scripts/444775-reddit-videos-space-bar-to-play-pause)
