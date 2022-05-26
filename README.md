@@ -19,7 +19,7 @@ Keyboard Key(s) | Trigger
   * When the video is auto-paused by scrolling down
   * When the video is paused by click and this script has been triggerd at least once on that video
 
-### Videos related user scripts
+### Related user scripts
 * [Unmute Reddit videos](https://greasyfork.org/en/scripts/445557-unmute-reddit-videos)
 
 # Changelog
