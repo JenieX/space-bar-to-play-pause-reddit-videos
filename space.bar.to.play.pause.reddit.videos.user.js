@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name           Reddit Videos - [Space Bar] to Play/Pause
-// @namespace      https://github.com/FlowerForWar/Reddit-Videos-Space-Bar-to-Play-Pause
+// @name           Space Bar to play/pause Reddit Videos
+// @namespace      https://github.com/FlowerForWar/space-bar-to-play-pause-reddit-videos
 // @description    Play/Pause a focused video by pressing the [Space Bar]. Automatically focus an auto-playing video
-// @version        0.05
+// @version        0.06
 // @author         FlowrForWar
 // @match          https://www.reddit.com/*
 // @grant          none
@@ -10,7 +10,7 @@
 // @compatible     firefox Greasemonkey, Tampermonkey or Violentmonkey
 // @compatible     chrome Tampermonkey or Violentmonkey
 // @compatible     opera Tampermonkey or Violentmonkey
-// @supportURL     https://github.com/FlowerForWar/Reddit-Videos-Space-Bar-to-Play-Pause/issues
+// @supportURL     https://github.com/FlowerForWar/space-bar-to-play-pause-reddit-videos/issues
 // @license        MIT
 // ==/UserScript==
 
