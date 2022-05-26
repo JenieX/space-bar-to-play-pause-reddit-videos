@@ -20,4 +20,4 @@ Keyboard Key(s) | Trigger
   * When the video is paused by click and this script has been triggerd at least once on that video
 
 ### Videos related user scripts
-* [Reddit Videos - [Space Bar] to Play/Pause](https://greasyfork.org/en/scripts/444775-reddit-videos-space-bar-to-play-pause)
+* [Unmute Reddit videos](https://greasyfork.org/en/scripts/445557-unmute-reddit-videos)
