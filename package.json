@@ -1,0 +1,16 @@
+{
+  "name": "space-bar-to-play-pause-reddit-videos",
+  "version": "0.0.6",
+  "description": "Play/Pause a focused video by pressing the [Space Bar]. Automatically focus an auto-playing video",
+  "main": "space.bar.to.play.pause.reddit.videos.user.js",
+  "author": "FlowerForWar",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
